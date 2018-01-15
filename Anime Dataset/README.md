@@ -16,6 +16,12 @@ This script can be used to download anime dataset from [**Myanimelist**](https:/
 * scoredBy: number of member scored the anime
 * members: number of member added anime to their list
 
+#### Syntax
+```
+python getAnime.py starting_index ending_index [output_file.csv]
+```
+
+
 #### Demo:
 
-![](demo/getAnime.gif)
+![](../demo/getAnime.gif)
