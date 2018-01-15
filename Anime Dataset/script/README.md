@@ -18,4 +18,4 @@ This script can be used to download anime dataset from [**Myanimelist**](https:/
 
 #### Demo:
 
-![]('demo/getAnime.gif')
+![](demo/getAnime.gif)
