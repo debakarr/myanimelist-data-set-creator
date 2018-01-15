@@ -4,7 +4,7 @@ This script can be used to download anime dataset from [**Myanimelist**](https:/
 
 #### Column metadata:
 
-* animeID: id of anime as in anime url https://myanimelist.net/anime/ID
+* animeID: id of anime as in anime url [https://myanimelist.net/anime/<span style="color:red">**1**</span>](https://myanimelist.net/anime/1)
 * name: title of anime
 * premiered: premiered on. default format (season year) 
 * genre: list of genre
