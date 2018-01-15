@@ -19,11 +19,11 @@ python getUser.py UserList.txt [User.csv]
 For this you need to get topic ID.
 Go to [**MAL**](https://myanimelist.net/) -> [**Community** -> **Forums**](https://myanimelist.net/forum/) -> **Select a forum**
 
-For example for the following forums links their respective ID are highlighted in red below:
+For example for the following forums links their respective ID are highlighted in bold below:
 
-[https://myanimelist.net/forum/?topicid=1699126](https://myanimelist.net/forum/?topicid=1699126) -> <span style="color:red">**1699126**</span>
+[https://myanimelist.net/forum/?topicid=1699126](https://myanimelist.net/forum/?topicid=1699126) -> **1699126**
 
-[https://myanimelist.net/forum/?topicid=1696289](https://myanimelist.net/forum/?topicid=1696289) -> <span style="color:red">**1696289**</span>
+[https://myanimelist.net/forum/?topicid=1696289](https://myanimelist.net/forum/?topicid=1696289) -> **1696289**
 
 After getting the topic ID, you can use **createUserListFromPost** script.
 
@@ -38,9 +38,9 @@ Go to [**MAL**](https://myanimelist.net/) -> [**Community** -> **Clubs**](https:
 
 For example for the following clubs links their respective ID are highlighted in red below:
 
-[https://myanimelist.net/clubs.php?cid=72250](https://myanimelist.net/clubs.php?cid=72250) -> <span style="color:red">**72250**</span>
+[https://myanimelist.net/clubs.php?cid=72250](https://myanimelist.net/clubs.php?cid=72250) -> **72250**
 
-[https://myanimelist.net/clubs.php?cid=32683](https://myanimelist.net/clubs.php?cid=32683) -> <span style="color:red">**32683**</span>
+[https://myanimelist.net/clubs.php?cid=32683](https://myanimelist.net/clubs.php?cid=32683) -> **32683**
 
 After getting the topic ID, you can use **createUserListFromClub** script.
 
