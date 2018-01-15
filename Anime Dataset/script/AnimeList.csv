@@ -1,0 +1,12 @@
+animeID, name, premiered, genre, type, episodes, studios, source, scored, scoredBy, members
+1,Cowboy Bebop,Spring 1998,"['Action', 'Adventure', 'Comedy', 'Drama', 'Sci-Fi', 'Space']",TV,26,['Sunrise'],Original,8.81,338520,648278
+5,Cowboy Bebop: Tengoku no Tobira,,"['Action', 'Space', 'Drama', 'Mystery', 'Sci-Fi']",Movie,1,['Bones'],Original,8.41,105852,169290
+6,Trigun,Spring 1998,"['Action', 'Comedy', 'Sci-Fi']",TV,26,['Madhouse'],Manga,8.31,187734,350518
+7,Witch Hunter Robin,Summer 2002,"['Action', 'Drama', 'Magic', 'Mystery', 'Police', 'Supernatural']",TV,26,['Sunrise'],Original,7.34,31226,72463
+8,Beet the Vandel Buster,Fall 2004,"['Adventure', 'Fantasy', 'Shounen', 'Supernatural']",TV,52,['Toei Animation'],Manga,7.04,4643,10916
+15,Eyeshield 21,Spring 2005,"['Action', 'Sports', 'Comedy', 'Shounen']",TV,145,['Studio Gallop'],Manga,8.05,46661,101219
+16,Hachimitsu to Clover,Spring 2005,"['Comedy', 'Drama', 'Josei', 'Romance', 'Slice of Life']",TV,24,['J.C.Staff'],Manga,8.14,52932,153686
+17,Hungry Heart: Wild Striker,Fall 2002,"['Slice of Life', 'Comedy', 'Sports', 'Shounen']",TV,52,['Nippon Animation'],Manga,7.69,8572,15484
+18,Initial D Fourth Stage,Spring 2004,"['Action', 'Cars', 'Sports', 'Drama', 'Seinen']",TV,24,['A.C.G.T.'],Manga,8.24,34369,58388
+19,Monster,Spring 2004,"['Drama', 'Horror', 'Mystery', 'Police', 'Psychological', 'Seinen', 'Thriller']",TV,74,['Madhouse'],Manga,8.69,111171,326563
+20,Naruto,Fall 2002,"['Action', 'Comedy', 'Super Power', 'Martial Arts', 'Shounen']",TV,220,['Studio Pierrot'],Manga,7.86,598862,901936
