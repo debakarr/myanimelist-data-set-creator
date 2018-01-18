@@ -97,3 +97,9 @@ python createUserListFromClub.py clubID [UserList.txt]
 ###### Get user dataset
 
 ![](demo/getUser.gif)
+
+***
+
+#### TO DO LIST
+* Scrapping Locally ✔
+* Scrapping using Heroku ⌛
