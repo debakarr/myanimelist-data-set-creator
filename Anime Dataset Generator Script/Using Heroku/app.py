@@ -50,7 +50,11 @@ for i in range(start + 1, start + 1000):
 
 	c = page.content
 
-	print('Fetching JSON...')
+	try:
+		print('Fetching JSON...')
+	except:
+		print("Unexpected error:", sys.exc_info()[0])
+		continue
 
 	jsonData = json.loads(c)
 

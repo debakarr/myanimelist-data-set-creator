@@ -56,7 +56,11 @@ for i in range(start, end): # note: The index starts in 1 and ends in 37115 (as 
 	c = page.content
 
 	# Decoding JSON
-	jsonData = json.loads(c)
+	try:
+		print('Fetching JSON...')
+	except:
+		print("Unexpected error:", sys.exc_info()[0])
+		continue
 
 	# if status code is 200 then write to file
 	if(page.status_code == 200):
