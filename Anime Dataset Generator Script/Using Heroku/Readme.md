@@ -45,6 +45,8 @@ This script can be used to download anime dataset from [**Myanimelist**](https:/
 
 * At last just push to heroku master and start the worker dyno. [Watch how to do that here](https://youtu.be/BvlCLwEMKHg)
 
+**NOTE**: If the worker doesn't starts amnually, you can start it using the following command: **heroku ps:scale worker=1**
+
 * Final Product:
 
 ![](demo/herokuFinal.gif)
