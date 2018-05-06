@@ -46,7 +46,7 @@ This script can be used to download anime dataset from [**Myanimelist**](https:/
 
 ![](demo/createClientScretJSON.gif)
 
-* [Get files for deployment here].
+* [Get files for deployment here](https://github.com/Dibakarroy1997/myanimelist-data-set-creator/tree/master/Anime%20Dataset%20Generator%20Script/Using%20Heroku).
 
 * Add client_secret.json and give access to the spreadsheet. Spreadsheet contains header, which you need to add. [Watch how to do that here](https://youtu.be/M-q0ptxOJB0).
 
