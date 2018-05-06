@@ -21,6 +21,41 @@ This script can be used to download anime dataset from [**Myanimelist**](https:/
 * scoredBy: number of member scored the anime
 * members: number of member added anime to their list
 
+### Using Heroku
+
+* Before doing this I will request you to watch this video - [Google Sheets and Python](https://youtu.be/vISRn5qFrkM). Here we are using this concept as a base. I just integrated this with heroku.
+
+* First you need to visit [this link](https://console.developers.google.com/cloud-resource-manager) to create a project inside Google cloud resource manager.
+
+* Click **CREATE PROJECT**, then give it a name. [If below gif is low quality, then click here](https://gfycat.com/gifs/detail/VibrantQuarterlyFieldmouse).
+
+
+![](demo/createProject.gif)
+
+* Now you need to enable Google sheet API for your project.
+
+![](demo/enableAPI.gif)
+
+* Next you need to get credential file. [If below gif is low quality, then click here](https://gfycat.com/gifs/detail/InsecureExcellentImpala).
+
+![](demo/createClientScretJSON.gif)
+
+* [Get files for deployment here].
+
+* Add client_secret.json and give access to the spreadsheet. Spreadsheet contains header, which you need to add. [Watch how to do that here](https://youtu.be/M-q0ptxOJB0).
+
+* Before deploying to Heroku. You need to create an app. [If below gif is low quality, then click here](https://gfycat.com/gifs/detail/AggressiveParallelDevilfish).
+
+![](demo/preDeploy.gif)
+
+* At last just push to heroku master and start the worker dyno. [Watch how to do that here](https://youtu.be/BvlCLwEMKHg)
+
+* Final Product:
+
+![](demo/herokuFinal.gif)
+
+### Using your own PC/Laptop
+
 #### Syntax
 ```
 python getAnime.py starting_index ending_index [output_file.csv]
@@ -102,4 +137,5 @@ python createUserListFromClub.py clubID [UserList.txt]
 
 #### TO DO LIST
 * Scrapping Locally ✔
-* Scrapping using Heroku ⌛
+* Scrapping using Heroku ✔
+* Creating Heroku Deploy Button ⌛
