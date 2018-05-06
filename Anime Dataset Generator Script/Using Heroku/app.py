@@ -34,7 +34,7 @@ if int(lastAnimeInsertedInSheet) == int(lastAnimeID):
 start = int(lastAnimeInsertedInSheet)
 
 for i in range(start + 1, start + 1000):
-	apiUrl = 'http://api.jikan.me/anime/' + str(i)
+	apiUrl = 'http://api.jikan.moe/anime/' + str(i)
 
 	page = requests.get(apiUrl)
 

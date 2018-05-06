@@ -48,7 +48,7 @@ w.write('animeID, name, premiered, genre, type, episodes, studios, source, score
 writer = csv.writer(w)
 
 for i in range(start, end): # note: The index starts in 1 and ends in 37115 (as on Jan 15 2018)
-	apiUrl = 'http://api.jikan.me/anime/' + str(i) # base url for API
+	apiUrl = 'http://api.jikan.moe/anime/' + str(i) # base url for API
 	# note: for SSL use 'https://api.jikan.me/'. For more go here 'https://jikan.me/docs'
 
 	# API call
