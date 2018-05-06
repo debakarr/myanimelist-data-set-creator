@@ -3,6 +3,10 @@ Collection of some simple python scripts to create https://myanimelist.net/ anim
 
 ***
 
+**NOTE**: This page contains lots of GIF. So it may take a lot of time to load. Please be patient.
+
+***
+
 # How to use Anime Dataset Generator
 
 This script can be used to download anime dataset from [**Myanimelist**](https://myanimelist.net/) using an unofficial MyAnimeList REST API, [**Jikan**](https://jikan.me/docs).
@@ -20,6 +24,8 @@ This script can be used to download anime dataset from [**Myanimelist**](https:/
 * scored: score of anime
 * scoredBy: number of member scored the anime
 * members: number of member added anime to their list
+
+***
 
 ### Using Heroku
 
@@ -53,6 +59,8 @@ This script can be used to download anime dataset from [**Myanimelist**](https:/
 * Final Product:
 
 ![](demo/herokuFinal.gif)
+
+***
 
 ### Using your own PC/Laptop
 
