@@ -3,6 +3,12 @@ Collection of some simple python scripts to create https://myanimelist.net/ anim
 
 ***
 
+## [Myanimelist Anime Dataset upto May 7 2018](https://raw.githubusercontent.com/Dibakarroy1997/myanimelist-data-set-creator/master/Anime%20Dataset%20Generator%20Script/Dataset/myAnimeListDataset%20%5B07-05-2018%5D.csv) [This may take some time to load]
+
+### [For latest dataset click here](https://docs.google.com/spreadsheets/d/1brguO5nGfXS-Fr1Xcf3pqPTQoBUPGLTYM_EMAA9yJFw/edit?usp=sharing) [Constantly updating]
+
+***
+
 **NOTE**: This page contains lots of GIF. So it may take a lot of time to load. Please be patient.
 
 ***
