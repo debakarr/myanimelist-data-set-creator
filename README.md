@@ -1,6 +1,8 @@
 # myanimelist-data-set-creator
 Collection of some simple python scripts to create https://myanimelist.net/ anime and user data set.
 
+## This is not maintained anymore. Bulk request is not encourage, hence discontinuing the Project.
+
 ***
 
 ## [Myanimelist Anime Dataset upto May 7 2018](https://raw.githubusercontent.com/Dibakarroy1997/myanimelist-data-set-creator/master/Anime%20Dataset%20Generator%20Script/Dataset/myAnimeListDataset%20%5B07-05-2018%5D.csv) [This may take some time to load]
