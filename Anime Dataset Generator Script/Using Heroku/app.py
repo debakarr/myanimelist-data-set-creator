@@ -34,7 +34,7 @@ if int(lastAnimeInsertedInSheet) == int(lastAnimeID):
 start = int(lastAnimeInsertedInSheet)
 
 for i in range(start + 1, start + 1000):
-	apiUrl = 'http://api.jikan.moe/anime/' + str(i)
+	apiUrl = 'http://api.jikan.moe/v3/anime/' + str(i)
 
 	page = requests.get(apiUrl)
 
@@ -70,17 +70,17 @@ for i in range(start + 1, start + 1000):
 		producer = []
 		licensor = []
 
-		for j in range(0, len(jsonData['licensor'])):
-			licensor.append(jsonData['licensor'][j]['name'])
+		for j in range(0, len(jsonData['licensors'])):
+			licensor.append(jsonData['licensors'][j]['name'])
 
-		for j in range(0, len(jsonData['producer'])):
-			producer.append(jsonData['producer'][j]['name'])
+		for j in range(0, len(jsonData['producers'])):
+			producer.append(jsonData['producers'][j]['name'])
 
-		for j in range(0, len(jsonData['studio'])):
-			studio.append(jsonData['studio'][j]['name'])
+		for j in range(0, len(jsonData['studios'])):
+			studio.append(jsonData['studios'][j]['name'])
 
-		for j in range(0, len(jsonData['genre'])):
-			genre.append(jsonData['genre'][j]['name'])
+		for j in range(0, len(jsonData['genres'])):
+			genre.append(jsonData['genres'][j]['name'])
 
 		l.append(str(i))
 		l.append(str(name))

@@ -48,7 +48,7 @@ w.write('animeID, name, premiered, genre, type, episodes, studios, source, score
 writer = csv.writer(w)
 
 for i in range(start, end): # note: The index starts in 1 and ends in 37115 (as on Jan 15 2018)
-	apiUrl = 'http://api.jikan.moe/anime/' + str(i) # base url for API
+	apiUrl = 'http://api.jikan.moe/v3/anime/' + str(i) # base url for API
 	# note: for SSL use 'https://api.jikan.me/'. For more go here 'https://jikan.me/docs'
 
 	# API call
@@ -61,6 +61,8 @@ for i in range(start, end): # note: The index starts in 1 and ends in 37115 (as 
 	except:
 		print("Unexpected error:", sys.exc_info()[0])
 		continue
+
+	jsonData = json.loads(c)
 
 	# if status code is 200 then write to file
 	if(page.status_code == 200):
@@ -78,12 +80,12 @@ for i in range(start, end): # note: The index starts in 1 and ends in 37115 (as 
 		genre = [] # list to store genre (list cuase it can be more then 1)
 
 		# getting studio name
-		for j in range(0, len(jsonData['studio'])):
-			studio.append(jsonData['studio'][j]['name'])
+		for j in range(0, len(jsonData['studios'])):
+			studio.append(jsonData['studios'][j]['name'])
 
 		# getting genre
-		for j in range(0, len(jsonData['genre'])):
-			genre.append(jsonData['genre'][j]['name'])
+		for j in range(0, len(jsonData['genres'])):
+			genre.append(jsonData['genres'][j]['name'])
 
 		l.append(i) # anime ID
 		l.append(name) # anime title
