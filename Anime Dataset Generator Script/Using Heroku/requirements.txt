@@ -15,7 +15,7 @@ heroku3==3.3.0
 html5lib==1.0.1
 httplib2==0.18.0
 idna==2.6
-ipython==6.2.1
+ipython==7.16.3
 ipython-genutils==0.2.0
 itsdangerous==0.24
 jedi==0.10.2
